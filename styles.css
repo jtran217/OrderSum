@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: 1440px 437px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hot Display', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.main-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.image-container img {
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    height: 700px;
+    border-radius: 5%;
+    width: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 8% 15%;
+    gap: 15px;
+}
+
+.text p {
+    line-height: 25px;
+}
+
+.summary-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+    padding: 5% 5%;
+    border-radius: 8%;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.summary-item-container a:hover {
+    cursor: pointer;
+}
+
+.plan-container {
+    display: flex;
+    gap: 20px;
+}
+
+.plan-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.plan-summary p:first-child {
+    font-weight: 700;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 6% 8% 8% 8%;
+}
+
+.button-container>*:hover {
+    cursor: pointer;
+}
+
+.payment-button {
+    padding: 4%;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 6px 8px 20px 8px hsl(224, 23%, 55%);
+    color: hsl(225, 100%, 98%);
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.cancel-button {
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
